@@ -1,5 +1,4 @@
-Install Apache Web Server
-sudo yum update -y
-sudo yum install -y httpd
-sudo systemctl start httpd
-sudo systemctl enable httpd
+sudo apt update -y
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
